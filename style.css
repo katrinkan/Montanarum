@@ -4,7 +4,6 @@ body {
   color: white;
 }
 h1 {
-  text-transform: uppercase;
   font-size: 70px;
   padding-bottom: 10px;
 }
@@ -14,16 +13,16 @@ h2 {
 h3 {
   font-size: 17px;
 }
-h4 {
+h1,
+h4,
+h5,
+li {
   text-transform: uppercase;
 }
-h5 {
-  text-transform: uppercase;
-}
+
 li {
   font-size: 17px;
   line-height: 35px;
-  text-transform: uppercase;
 }
 p {
   font-size: 20px;
@@ -121,12 +120,10 @@ a {
 .adresse {
   text-align: start;
 }
-.contact-heading {
+.besuch-uns {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 70px;
-  text-transform: uppercase;
-  font-size: 48px;
 }
 .placeholder-map {
   border-radius: 4px;
@@ -136,4 +133,61 @@ a {
 }
 .impressum {
   margin: 40px 10px;
+}
+@media (max-width: 600px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  q,
+  img {
+    text-align: center;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 16px;
+  }
+  q {
+    font-size: 32px;
+    display: block;
+    margin: 0px auto;
+    padding: 0 10px;
+  }
+  img {
+    max-width: 100%;
+  }
+  .hero {
+    height: auto;
+    width: auto;
+    display: block;
+  }
+  .hero::before {
+    background: none;
+    position: static;
+  }
+  .hero-content {
+    position: static;
+    padding: 10px;
+  }
+  .main-paragraph {
+    margin-top: 10px;
+    padding: 10px 30px;
+  }
+  .besuch-uns {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .placeholder-map {
+    margin: 30px auto;
+  }
+  .footer-logo {
+    margin: 0 auto;
+    padding-left: 0px;
+  }
 }
