@@ -201,7 +201,16 @@ a {
     width: auto;
     display: block;
   }
+  .hero-rundweg {
+    height: auto;
+    width: auto;
+    display: block;
+  }
   .hero::before {
+    background: none;
+    position: static;
+  }
+  .hero-rundweg::before {
     background: none;
     position: static;
   }
@@ -229,6 +238,6 @@ a {
     padding-left: 0px;
   }
   .rundweg h1 {
-    font-size: 36px;
+    font-size: 28px;
   }
 }
