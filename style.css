@@ -1,0 +1,139 @@
+body {
+  background-color: #380209;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 70px;
+  padding-bottom: 10px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 17px;
+}
+h4 {
+  text-transform: uppercase;
+}
+h5 {
+  text-transform: uppercase;
+}
+li {
+  font-size: 17px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+p {
+  font-size: 20px;
+  line-height: 27px;
+}
+q {
+  font-size: 70px;
+}
+footer {
+  padding: 30px 0 50px 0;
+}
+small {
+  opacity: 0.5;
+}
+a {
+  color: white;
+}
+.header-logo {
+  display: block;
+  margin: 10px auto;
+}
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(./media/museum-innenansicht-vitrinen.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(60%);
+}
+.hero-content {
+  position: relative;
+  top: 100px;
+  right: 290px;
+  background-color: rgba(56, 2, 9, 0.5);
+  padding: 50px;
+  border-radius: 4px;
+}
+.nav-item {
+  padding: 0 50px;
+}
+.banner {
+  display: block;
+  margin: 10px auto;
+  border-radius: 4px;
+}
+.main-paragraph {
+  padding: 40px 50px;
+  margin-top: 40px;
+}
+.card {
+  background-color: #380209;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
+    1px 3px 8px rgba(39, 44, 49, 0.03);
+  transition: all 0.5s ease;
+  margin: 10px auto;
+  border: none;
+}
+.card:hover {
+  transform: translate3D(0, -1px, 0) scale(1.06);
+  box-shadow: 8px 28px 50px rgba(39, 44, 49, 0.07),
+    1px 6px 12px rgba(39, 44, 49, 0.04);
+  transition: all 0.4s ease;
+}
+.card-title {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+.footer-logo {
+  max-width: 10%;
+  opacity: 0.5;
+  padding-left: 20px;
+}
+.footer-link {
+  text-align: center;
+  margin-top: 30px;
+}
+.map {
+  text-align: end;
+}
+.adresse {
+  text-align: start;
+}
+.contact-heading {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  text-transform: uppercase;
+  font-size: 48px;
+}
+.placeholder-map {
+  border-radius: 4px;
+}
+.impressum p {
+  font-size: 14px;
+}
+.impressum {
+  margin: 40px 10px;
+}
