@@ -137,6 +137,21 @@ footer a {
 hr {
   margin-bottom: 0;
 }
+label {
+  font-size: 27px;
+}
+button {
+  padding: 8px 16px;
+  font-size: 27px;
+  border-radius: 30px;
+  border: none;
+  background-color: #8a686c;
+  color: white;
+}
+button:hover {
+  background-color: #dc7f02;
+  color: #380209;
+}
 .header-heading {
   font-size: 40px;
   text-decoration: none;
@@ -158,7 +173,6 @@ hr {
 .mitglied-button:hover {
   transform: translate3d(0, -1px, 0) scale(1.1);
   transition: all 0.4s ease;
-  rotate: ;
 }
 .header-logo {
   display: block;
@@ -251,6 +265,13 @@ hr {
   line-height: 1.7;
   padding: 30px 50px;
 }
+ul {
+  padding-left: 70px;
+}
+li {
+  font-size: 27px;
+  padding-bottom: 10px;
+}
 .starter .starter-link {
   color: #380209;
 }
@@ -310,7 +331,14 @@ hr {
   height: 100vh;
   width: 100vw;
 }
-
+.radio {
+  margin-right: 10px;
+}
+.danke {
+  background-color: white;
+  color: #8a686c;
+  padding: 60px;
+}
 .footer-logo {
   max-width: 10%;
   opacity: 0.5;
@@ -377,6 +405,12 @@ hr {
   h5 {
     font-size: 24px;
   }
+  ul {
+    padding-left: 30px;
+  }
+  li {
+    font-size: 16px;
+  }
   .header-heading {
     font-size: 24px;
   }
@@ -420,6 +454,7 @@ hr {
     font-size: 24px;
     padding: 10px 10px;
     line-height: 1.2;
+    text-align: start;
   }
   .main-paragraph {
     margin-top: 10px;
