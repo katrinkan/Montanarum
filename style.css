@@ -137,7 +137,29 @@ footer a {
 hr {
   margin-bottom: 0;
 }
-
+.header-heading {
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Arbutus Slab";
+}
+.header-heading:hover {
+  color: white;
+}
+.mitglied-button {
+  max-width: 10%;
+  rotate: 340deg;
+  padding: 15px 15px;
+  position: absolute;
+  z-index: 1;
+  transition: all 0.5s ease;
+}
+.mitglied-button:hover {
+  transform: translate3d(0, -1px, 0) scale(1.1);
+  transition: all 0.4s ease;
+  rotate: ;
+}
 .header-logo {
   display: block;
   margin: 10px auto;
@@ -292,11 +314,13 @@ hr {
 .footer-logo {
   max-width: 10%;
   opacity: 0.5;
-  padding-left: 20px;
 }
 .footer-link {
   text-align: center;
   margin-top: 30px;
+}
+.footer-link a:hover {
+  color: white;
 }
 .map {
   text-align: end;
@@ -352,6 +376,12 @@ hr {
   }
   h5 {
     font-size: 24px;
+  }
+  .header-heading {
+    font-size: 24px;
+  }
+  .mitglied-button {
+    display: none;
   }
   .hero {
     height: auto;
@@ -410,8 +440,7 @@ hr {
   .placeholder-map {
     margin: 30px auto;
   }
-  .footer-logo {
-  }
+
   .rundweg h1 {
     font-size: 28px;
   }
